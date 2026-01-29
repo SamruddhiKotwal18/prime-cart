@@ -36,7 +36,7 @@ const CheckoutPage = () => {
   const [errors, setErrors] = useState<FormErrors>({});
 
   const subtotal = getSubtotal();
-  const shipping = subtotal > 50 ? 0 : 9.99;
+  const shipping = subtotal > 4000 ? 0 : 199;
   const total = subtotal + shipping;
 
   const validateForm = (): boolean => {
@@ -274,7 +274,7 @@ const CheckoutPage = () => {
                           <p className="text-xs text-muted-foreground">Qty: {item.quantity}</p>
                         </div>
                         <span className="text-sm font-medium">
-                          ${(item.product.price * item.quantity).toFixed(2)}
+                          ₹{(item.product.price * item.quantity).toLocaleString('en-IN')}
                         </span>
                       </div>
                     ))}
@@ -288,12 +288,12 @@ const CheckoutPage = () => {
                   <div className="border-t border-border pt-4 space-y-2 text-sm">
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Subtotal</span>
-                      <span className="font-medium">${subtotal.toFixed(2)}</span>
+                      <span className="font-medium">₹{subtotal.toLocaleString('en-IN')}</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-muted-foreground">Shipping</span>
                       <span className="font-medium">
-                        {shipping === 0 ? <span className="text-success">Free</span> : `$${shipping.toFixed(2)}`}
+                        {shipping === 0 ? <span className="text-success">Free</span> : `₹${shipping.toLocaleString('en-IN')}`}
                       </span>
                     </div>
                   </div>
@@ -302,7 +302,7 @@ const CheckoutPage = () => {
 
                   <div className="flex justify-between text-lg font-bold mb-6">
                     <span>Total</span>
-                    <span>${total.toFixed(2)}</span>
+                    <span>₹{total.toLocaleString('en-IN')}</span>
                   </div>
 
                   <button
