@@ -83,7 +83,7 @@ const OrderConfirmationPage = () => {
           Order Placed Successfully!
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          Thank you for shopping with BharatBazaar. Your order is being processed.
+          Thank you for shopping with Sam Mart. Your order is being processed.
         </p>
 
         {/* Order Details Card */}
