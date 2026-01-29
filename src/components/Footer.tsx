@@ -10,9 +10,9 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <span className="text-lg font-bold text-primary-foreground">S</span>
+                <span className="text-lg font-bold text-primary-foreground">B</span>
               </div>
-              <span className="text-xl font-bold font-display">ShopVerse</span>
+              <span className="text-xl font-bold font-display">BharatBazaar</span>
             </Link>
             <p className="text-background/70 text-sm mb-4">
               Your one-stop destination for premium products. Quality you can trust, prices you'll love.
@@ -98,7 +98,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-10 pt-6 text-center text-sm text-background/50">
-          <p>© {new Date().getFullYear()} ShopVerse. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BharatBazaar. All rights reserved.</p>
         </div>
       </div>
     </footer>

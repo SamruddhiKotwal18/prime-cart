@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ShopVerse E-commerce Design System
-   Modern, warm, professional e-commerce theme
-   Primary: Deep Teal | Accent: Warm Coral | Neutral: Cream/White
+/* BharatBazaar E-commerce Design System
+   Modern, professional Indian e-commerce theme
+   Primary: Navy Blue | Accent: Saffron Orange | Neutral: Warm White
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
@@ -12,31 +12,31 @@
 @layer base {
   :root {
     /* Core backgrounds */
-    --background: 40 33% 98%;
-    --foreground: 220 20% 10%;
+    --background: 45 30% 98%;
+    --foreground: 222 47% 11%;
 
     /* Card surfaces */
     --card: 0 0% 100%;
-    --card-foreground: 220 20% 10%;
+    --card-foreground: 222 47% 11%;
 
     /* Popover surfaces */
     --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 10%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Primary: Deep Teal */
-    --primary: 175 50% 28%;
+    /* Primary: Navy Blue */
+    --primary: 222 47% 25%;
     --primary-foreground: 0 0% 100%;
 
     /* Secondary: Light Cream */
-    --secondary: 40 30% 94%;
-    --secondary-foreground: 220 20% 15%;
+    --secondary: 45 25% 94%;
+    --secondary-foreground: 222 47% 15%;
 
     /* Muted */
-    --muted: 40 20% 92%;
-    --muted-foreground: 220 10% 45%;
+    --muted: 45 20% 92%;
+    --muted-foreground: 222 15% 45%;
 
-    /* Accent: Warm Coral/Orange */
-    --accent: 18 90% 55%;
+    /* Accent: Saffron Orange */
+    --accent: 30 95% 50%;
     --accent-foreground: 0 0% 100%;
 
     /* Destructive */
@@ -44,9 +44,9 @@
     --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 40 15% 88%;
-    --input: 40 15% 88%;
-    --ring: 175 50% 28%;
+    --border: 45 15% 88%;
+    --input: 45 15% 88%;
+    --ring: 222 47% 25%;
 
     --radius: 0.75rem;
 
@@ -59,70 +59,70 @@
     --info-foreground: 0 0% 100%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(175 50% 28%) 0%, hsl(175 60% 35%) 50%, hsl(185 50% 40%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(18 90% 55%) 0%, hsl(25 95% 58%) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(40 20% 98%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 25%) 0%, hsl(222 55% 35%) 50%, hsl(230 50% 40%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(30 95% 50%) 0%, hsl(35 98% 55%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(45 20% 98%) 100%);
 
     /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(220 20% 10% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(220 20% 10% / 0.08), 0 2px 4px -2px hsl(220 20% 10% / 0.05);
-    --shadow-lg: 0 10px 15px -3px hsl(220 20% 10% / 0.08), 0 4px 6px -4px hsl(220 20% 10% / 0.04);
-    --shadow-xl: 0 20px 25px -5px hsl(220 20% 10% / 0.1), 0 8px 10px -6px hsl(220 20% 10% / 0.05);
-    --shadow-card: 0 2px 8px -2px hsl(220 20% 10% / 0.08), 0 4px 16px -4px hsl(220 20% 10% / 0.06);
-    --shadow-hover: 0 12px 24px -6px hsl(220 20% 10% / 0.12), 0 6px 12px -6px hsl(220 20% 10% / 0.08);
+    --shadow-sm: 0 1px 2px 0 hsl(222 47% 11% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(222 47% 11% / 0.08), 0 2px 4px -2px hsl(222 47% 11% / 0.05);
+    --shadow-lg: 0 10px 15px -3px hsl(222 47% 11% / 0.08), 0 4px 6px -4px hsl(222 47% 11% / 0.04);
+    --shadow-xl: 0 20px 25px -5px hsl(222 47% 11% / 0.1), 0 8px 10px -6px hsl(222 47% 11% / 0.05);
+    --shadow-card: 0 2px 8px -2px hsl(222 47% 11% / 0.08), 0 4px 16px -4px hsl(222 47% 11% / 0.06);
+    --shadow-hover: 0 12px 24px -6px hsl(222 47% 11% / 0.12), 0 6px 12px -6px hsl(222 47% 11% / 0.08);
 
     /* Sidebar */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 175 50% 28%;
+    --sidebar-primary: 222 47% 25%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 40 30% 94%;
-    --sidebar-accent-foreground: 220 20% 15%;
-    --sidebar-border: 40 15% 88%;
-    --sidebar-ring: 175 50% 28%;
+    --sidebar-accent: 45 25% 94%;
+    --sidebar-accent-foreground: 222 47% 15%;
+    --sidebar-border: 45 15% 88%;
+    --sidebar-ring: 222 47% 25%;
   }
 
   .dark {
-    --background: 220 20% 8%;
-    --foreground: 40 20% 96%;
+    --background: 222 30% 8%;
+    --foreground: 45 20% 96%;
 
-    --card: 220 18% 12%;
-    --card-foreground: 40 20% 96%;
+    --card: 222 25% 12%;
+    --card-foreground: 45 20% 96%;
 
-    --popover: 220 18% 12%;
-    --popover-foreground: 40 20% 96%;
+    --popover: 222 25% 12%;
+    --popover-foreground: 45 20% 96%;
 
-    --primary: 175 55% 45%;
+    --primary: 222 55% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 15% 18%;
-    --secondary-foreground: 40 20% 96%;
+    --secondary: 222 20% 18%;
+    --secondary-foreground: 45 20% 96%;
 
-    --muted: 220 15% 20%;
-    --muted-foreground: 40 15% 60%;
+    --muted: 222 20% 20%;
+    --muted-foreground: 45 15% 60%;
 
-    --accent: 18 85% 58%;
+    --accent: 30 90% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 65% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 22%;
-    --input: 220 15% 22%;
-    --ring: 175 55% 45%;
+    --border: 222 20% 22%;
+    --input: 222 20% 22%;
+    --ring: 222 55% 45%;
 
     --success: 142 60% 50%;
     --warning: 38 85% 55%;
     --info: 199 80% 55%;
 
-    --sidebar-background: 220 18% 10%;
-    --sidebar-foreground: 40 20% 96%;
-    --sidebar-primary: 175 55% 45%;
+    --sidebar-background: 222 25% 10%;
+    --sidebar-foreground: 45 20% 96%;
+    --sidebar-primary: 222 55% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 15% 18%;
-    --sidebar-accent-foreground: 40 20% 96%;
-    --sidebar-border: 220 15% 22%;
-    --sidebar-ring: 175 55% 45%;
+    --sidebar-accent: 222 20% 18%;
+    --sidebar-accent-foreground: 45 20% 96%;
+    --sidebar-border: 222 20% 22%;
+    --sidebar-ring: 222 55% 45%;
   }
 }
 
@@ -165,7 +165,7 @@
 
   .btn-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px -4px hsl(18 90% 55% / 0.4);
+    box-shadow: 0 8px 20px -4px hsl(30 95% 50% / 0.4);
   }
 
   .btn-cta:active {
