@@ -8,7 +8,7 @@ const CartPage = () => {
   const { items, updateQuantity, removeFromCart, getSubtotal, getTotalItems } = useCart();
 
   const subtotal = getSubtotal();
-  const shipping = subtotal > 50 ? 0 : 9.99;
+  const shipping = subtotal > 4000 ? 0 : 199;
   const total = subtotal + shipping;
 
   if (items.length === 0) {
@@ -100,7 +100,7 @@ const CartPage = () => {
                       {/* Price & Remove */}
                       <div className="flex items-center gap-4">
                         <span className="font-bold text-foreground">
-                          ${(item.product.price * item.quantity).toFixed(2)}
+                          ₹{(item.product.price * item.quantity).toLocaleString('en-IN')}
                         </span>
                         <button
                           onClick={() => removeFromCart(item.product.id)}
@@ -124,7 +124,7 @@ const CartPage = () => {
                 <div className="space-y-3 text-sm">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span className="font-medium">${subtotal.toFixed(2)}</span>
+                    <span className="font-medium">₹{subtotal.toLocaleString('en-IN')}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Shipping</span>
@@ -132,13 +132,13 @@ const CartPage = () => {
                       {shipping === 0 ? (
                         <span className="text-success">Free</span>
                       ) : (
-                        `$${shipping.toFixed(2)}`
+                        `₹${shipping.toLocaleString('en-IN')}`
                       )}
                     </span>
                   </div>
                   {shipping > 0 && (
                     <p className="text-xs text-muted-foreground">
-                      Add ${(50 - subtotal).toFixed(2)} more for free shipping
+                      Add ₹{(4000 - subtotal).toLocaleString('en-IN')} more for free shipping
                     </p>
                   )}
                 </div>
@@ -147,7 +147,7 @@ const CartPage = () => {
 
                 <div className="flex justify-between text-lg font-bold mb-6">
                   <span>Total</span>
-                  <span>${total.toFixed(2)}</span>
+                  <span>₹{total.toLocaleString('en-IN')}</span>
                 </div>
 
                 <Link to="/checkout" className="btn-cta w-full justify-center">

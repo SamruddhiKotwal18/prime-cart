@@ -129,10 +129,10 @@ const ProductDetailPage = () => {
 
               {/* Price */}
               <div className="flex items-baseline gap-3 mb-6">
-                <span className="text-3xl font-bold">${product.price.toFixed(2)}</span>
+                <span className="text-3xl font-bold">₹{product.price.toLocaleString('en-IN')}</span>
                 {product.originalPrice && (
                   <span className="text-xl text-muted-foreground line-through">
-                    ${product.originalPrice.toFixed(2)}
+                    ₹{product.originalPrice.toLocaleString('en-IN')}
                   </span>
                 )}
               </div>
@@ -182,7 +182,7 @@ const ProductDetailPage = () => {
               <div className="space-y-3 py-6 border-t border-border">
                 <div className="flex items-center gap-3 text-sm">
                   <Truck className="h-5 w-5 text-primary" />
-                  <span>Free shipping on orders over $50</span>
+                  <span>Free shipping on orders over ₹4,000</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <Shield className="h-5 w-5 text-primary" />
