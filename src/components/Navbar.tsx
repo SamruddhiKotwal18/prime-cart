@@ -36,10 +36,10 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 shrink-0">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-              <span className="text-lg font-bold text-primary-foreground">S</span>
+              <span className="text-lg font-bold text-primary-foreground">B</span>
             </div>
             <span className="hidden sm:block text-xl font-bold text-foreground font-display">
-              ShopVerse
+              BharatBazaar
             </span>
           </Link>
 

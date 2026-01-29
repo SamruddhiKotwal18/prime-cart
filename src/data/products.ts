@@ -70,8 +70,8 @@ export const products: Product[] = [
   {
     id: "elec-1",
     name: "Wireless Bluetooth Headphones",
-    price: 79.99,
-    originalPrice: 99.99,
+    price: 6499,
+    originalPrice: 8499,
     image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.5,
@@ -83,7 +83,7 @@ export const products: Product[] = [
   {
     id: "elec-2",
     name: "Smart Watch Pro",
-    price: 249.99,
+    price: 19999,
     image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.7,
@@ -95,7 +95,7 @@ export const products: Product[] = [
   {
     id: "elec-3",
     name: "Portable Bluetooth Speaker",
-    price: 49.99,
+    price: 3999,
     image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.3,
@@ -106,7 +106,7 @@ export const products: Product[] = [
   {
     id: "elec-4",
     name: "Wireless Charging Pad",
-    price: 29.99,
+    price: 2499,
     image: "https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.4,
@@ -117,8 +117,8 @@ export const products: Product[] = [
   {
     id: "elec-5",
     name: "4K Action Camera",
-    price: 199.99,
-    originalPrice: 249.99,
+    price: 15999,
+    originalPrice: 19999,
     image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.6,
@@ -130,7 +130,7 @@ export const products: Product[] = [
   {
     id: "elec-6",
     name: "Wireless Earbuds",
-    price: 59.99,
+    price: 4999,
     image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.2,
@@ -141,7 +141,7 @@ export const products: Product[] = [
   {
     id: "elec-7",
     name: "USB-C Hub Adapter",
-    price: 39.99,
+    price: 3299,
     image: "https://images.unsplash.com/photo-1625723044792-44de16cdc514?w=400&h=400&fit=crop",
     category: "electronics",
     rating: 4.5,
@@ -154,8 +154,8 @@ export const products: Product[] = [
   {
     id: "kit-1",
     name: "Electric Pressure Cooker",
-    price: 89.99,
-    originalPrice: 119.99,
+    price: 7499,
+    originalPrice: 9999,
     image: "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.8,
@@ -167,7 +167,7 @@ export const products: Product[] = [
   {
     id: "kit-2",
     name: "High-Speed Blender",
-    price: 129.99,
+    price: 10999,
     image: "https://images.unsplash.com/photo-1570222094114-d054a817e56b?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.6,
@@ -179,7 +179,7 @@ export const products: Product[] = [
   {
     id: "kit-3",
     name: "Air Fryer XL",
-    price: 99.99,
+    price: 8499,
     image: "https://images.unsplash.com/photo-1626509653291-18d9a934b9db?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.7,
@@ -190,7 +190,7 @@ export const products: Product[] = [
   {
     id: "kit-4",
     name: "Coffee Maker with Grinder",
-    price: 149.99,
+    price: 12499,
     image: "https://images.unsplash.com/photo-1520970014086-2208d157c9e2?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.5,
@@ -201,8 +201,8 @@ export const products: Product[] = [
   {
     id: "kit-5",
     name: "Stand Mixer",
-    price: 279.99,
-    originalPrice: 349.99,
+    price: 22999,
+    originalPrice: 28999,
     image: "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.9,
@@ -214,7 +214,7 @@ export const products: Product[] = [
   {
     id: "kit-6",
     name: "Electric Kettle",
-    price: 34.99,
+    price: 2899,
     image: "https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.4,
@@ -225,7 +225,7 @@ export const products: Product[] = [
   {
     id: "kit-7",
     name: "Toaster 4-Slice",
-    price: 49.99,
+    price: 4199,
     image: "https://images.unsplash.com/photo-1621460248083-6271cc4437a8?w=400&h=400&fit=crop",
     category: "kitchen",
     rating: 4.3,
@@ -238,7 +238,7 @@ export const products: Product[] = [
   {
     id: "home-1",
     name: "Memory Foam Pillow Set",
-    price: 49.99,
+    price: 4199,
     image: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.6,
@@ -249,7 +249,7 @@ export const products: Product[] = [
   {
     id: "home-2",
     name: "Scented Candle Collection",
-    price: 29.99,
+    price: 2499,
     image: "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.5,
@@ -261,8 +261,8 @@ export const products: Product[] = [
   {
     id: "home-3",
     name: "Robot Vacuum Cleaner",
-    price: 299.99,
-    originalPrice: 399.99,
+    price: 24999,
+    originalPrice: 32999,
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.7,
@@ -274,7 +274,7 @@ export const products: Product[] = [
   {
     id: "home-4",
     name: "Weighted Blanket",
-    price: 79.99,
+    price: 6499,
     image: "https://images.unsplash.com/photo-1580200131976-112bea9c35f5?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.8,
@@ -285,7 +285,7 @@ export const products: Product[] = [
   {
     id: "home-5",
     name: "LED Desk Lamp",
-    price: 39.99,
+    price: 3299,
     image: "https://images.unsplash.com/photo-1534105615256-13940a56ff44?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.4,
@@ -296,7 +296,7 @@ export const products: Product[] = [
   {
     id: "home-6",
     name: "Indoor Plant Pot Set",
-    price: 34.99,
+    price: 2899,
     image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.3,
@@ -307,7 +307,7 @@ export const products: Product[] = [
   {
     id: "home-7",
     name: "Essential Oil Diffuser",
-    price: 24.99,
+    price: 1999,
     image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop",
     category: "home",
     rating: 4.5,
@@ -320,7 +320,7 @@ export const products: Product[] = [
   {
     id: "fash-1",
     name: "Classic Leather Watch",
-    price: 149.99,
+    price: 12499,
     image: "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.7,
@@ -331,8 +331,8 @@ export const products: Product[] = [
   {
     id: "fash-2",
     name: "Designer Sunglasses",
-    price: 89.99,
-    originalPrice: 129.99,
+    price: 7499,
+    originalPrice: 10999,
     image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.5,
@@ -344,7 +344,7 @@ export const products: Product[] = [
   {
     id: "fash-3",
     name: "Canvas Backpack",
-    price: 59.99,
+    price: 4999,
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.6,
@@ -356,7 +356,7 @@ export const products: Product[] = [
   {
     id: "fash-4",
     name: "Leather Wallet",
-    price: 39.99,
+    price: 3299,
     image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.4,
@@ -367,7 +367,7 @@ export const products: Product[] = [
   {
     id: "fash-5",
     name: "Silk Scarf",
-    price: 49.99,
+    price: 4199,
     image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.3,
@@ -378,7 +378,7 @@ export const products: Product[] = [
   {
     id: "fash-6",
     name: "Running Sneakers",
-    price: 119.99,
+    price: 9999,
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.8,
@@ -389,7 +389,7 @@ export const products: Product[] = [
   {
     id: "fash-7",
     name: "Leather Belt",
-    price: 29.99,
+    price: 2499,
     image: "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=400&h=400&fit=crop",
     category: "fashion",
     rating: 4.5,
@@ -402,8 +402,8 @@ export const products: Product[] = [
   {
     id: "beauty-1",
     name: "Skincare Gift Set",
-    price: 69.99,
-    originalPrice: 89.99,
+    price: 5799,
+    originalPrice: 7499,
     image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.7,
@@ -415,7 +415,7 @@ export const products: Product[] = [
   {
     id: "beauty-2",
     name: "Hair Dryer Professional",
-    price: 89.99,
+    price: 7499,
     image: "https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.6,
@@ -427,7 +427,7 @@ export const products: Product[] = [
   {
     id: "beauty-3",
     name: "Makeup Brush Set",
-    price: 34.99,
+    price: 2899,
     image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.5,
@@ -438,7 +438,7 @@ export const products: Product[] = [
   {
     id: "beauty-4",
     name: "Electric Toothbrush",
-    price: 49.99,
+    price: 4199,
     image: "https://images.unsplash.com/photo-1559591937-a9428a8e27a2?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.8,
@@ -449,7 +449,7 @@ export const products: Product[] = [
   {
     id: "beauty-5",
     name: "Perfume Eau de Parfum",
-    price: 79.99,
+    price: 6499,
     image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.6,
@@ -460,7 +460,7 @@ export const products: Product[] = [
   {
     id: "beauty-6",
     name: "Face Massager Roller",
-    price: 24.99,
+    price: 1999,
     image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.4,
@@ -471,7 +471,7 @@ export const products: Product[] = [
   {
     id: "beauty-7",
     name: "Nail Care Kit",
-    price: 19.99,
+    price: 1599,
     image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=400&fit=crop",
     category: "beauty",
     rating: 4.3,
