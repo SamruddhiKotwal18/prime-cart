@@ -83,7 +83,7 @@ const OrderConfirmationPage = () => {
           Order Placed Successfully!
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          Thank you for shopping with ShopVerse. Your order is being processed.
+          Thank you for shopping with BharatBazaar. Your order is being processed.
         </p>
 
         {/* Order Details Card */}
@@ -101,7 +101,7 @@ const OrderConfirmationPage = () => {
           <div className="space-y-3 text-sm">
             <div className="flex justify-between py-2 border-b border-border">
               <span className="text-muted-foreground">Order Total</span>
-              <span className="font-bold text-lg">${state.total.toFixed(2)}</span>
+              <span className="font-bold text-lg">₹{state.total.toLocaleString('en-IN')}</span>
             </div>
             <div className="flex justify-between py-2 border-b border-border">
               <span className="text-muted-foreground">Payment Method</span>
