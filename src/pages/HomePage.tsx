@@ -54,7 +54,7 @@ const HomePage = () => {
           <div className="container mx-auto px-4 py-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { icon: Truck, title: "Free Shipping", desc: "On orders over $50" },
+                { icon: Truck, title: "Free Shipping", desc: "On orders over ₹4,000" },
                 { icon: Shield, title: "Secure Payment", desc: "100% protected" },
                 { icon: CreditCard, title: "Easy Returns", desc: "30-day guarantee" },
                 { icon: Headphones, title: "24/7 Support", desc: "Here to help" },
