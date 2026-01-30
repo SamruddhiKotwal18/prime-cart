@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Twitter, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import samMartLogo from "@/assets/sam-mart-logo.png";
 
 const Footer = () => {
   return (
@@ -9,9 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <span className="text-lg font-bold text-primary-foreground">S</span>
-              </div>
+              <img src={samMartLogo} alt="Sam Mart" className="h-10 w-10 object-contain" />
               <span className="text-xl font-bold font-display">Sam Mart</span>
             </Link>
             <p className="text-background/70 text-sm mb-4">
